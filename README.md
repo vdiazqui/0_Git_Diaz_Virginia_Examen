@@ -4,7 +4,9 @@
 ### https://github.com/vdiazqui/Diaz_Virginia.zip.git
 
 **1º Explica que es un “Pull Request” en Github. *(1 pts)***
-Los Pull Requests te ayudan a trabajar 
+
+La traducción literal de "Request' es "petición' y "Pull" hemos visto que significa coger el código de otra persona para editarlo tú: por ejemplo, cuando trabajamos en nuestra consola y utilizamos el comando "git pull" estamos cogiendo los cambios que otro compañero ha subido al remoto e incoporándolos a nuestro local. 
+Lo que hacen los Pull Requests es permitirte coger el código de otra persona y así eres capaz de trabajar de manera conjunta con los que estén creando un código que te pueda servir a ti. Es por esto que se dice que UNIX es un sistema operativo de código libre (open source), ya que todo el mundo se puede ayudar uno a otros. Además es bidireccional, porque luego esas personas podrán hacerte un Pull Request a ti y trabajar con tu código. 
 
 **2º ¿Qué es un conflicto de fusión (merge conflict) en Git? Explica como resolverías este conflicto. *(1 pts)***
 
