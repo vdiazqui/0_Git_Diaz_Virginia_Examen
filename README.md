@@ -7,7 +7,11 @@
 
 **2º ¿Qué es un conflicto de fusión (merge conflict) en Git? Explica como resolverías este conflicto. (1 pts)**
 
+Para explicar lo que es un conflicto de fusión debemos introducir brevemente ciertos conceptos. Cuando estamos escribiendo código en Git, en ocasiones, se trabaja en más de una rama (también denominada "branch"): la rama principal, suele ser nombrada main o master y es donde el código es estable y listo para producción; además, se pueden crear más ramas para que otras personas puedan crear codigo sin modificar el main. 
+El conflicto tiene lugar cuando queremos fusionar (en inglés merge) varias ramas, es decir, integrar los cambios realizados en otra rama en tu rama actual. Un merge conflict o conflicto de fusión se daría cuando los cambios realizados en una rama afectan directamente a los cambios realizados en la otra. Por ejemplo, en una rama puedes estar eliminando un comando y en la otra estar utilizando ese mismo comando, algo inconcevible. Para asegurar que la integración final de ramas sea estable y funcional se deben manejar los posibles conflictos de fusión previamente explicados. En este caso hipotetico, para resolver el conflicto de fusión se tendría que decidir que cambios son a los que se da prioridad ya que juntos se contradicen.
+
 **3º Imaginemos que tenemos dos ramas, la principal llamada “main” y la rama “examen_parcial”. ¿Qué procedimiento se debería seguir para fusionar (merge) ambas ramas? (0.5 pts)**
+Si nuestro objetivo es fusionar los cambios de la rama "examen_parcial" en nuestra rama actual que es la principal llamada "main" se debería utilizar el comando git merge examen_parcial
 
 **4º Has realizado un commit, pero luego descubres un error importante en los cambios que has incluido. Necesitas revertir este último commit para regresar tu proyecto al estado anterior, pero deseas mantener los cambios realizados en tu área de trabajo. Explica el comando de Git que utilizarías para llevar a cabo esta acción. (0.5 pts)**
 
