@@ -5,103 +5,56 @@
 
 **1º Explica que es un “Pull Request” en Github. (1 pts)**
 
-
 **2º ¿Qué es un conflicto de fusión (merge conflict) en Git? Explica como resolverías este conflicto. (1 pts)**
 
 **3º Imaginemos que tenemos dos ramas, la principal llamada “main” y la rama “examen_parcial”. ¿Qué procedimiento se debería seguir para fusionar (merge) ambas ramas? (0.5 pts)**
 
 **4º Has realizado un commit, pero luego descubres un error importante en los cambios que has incluido. Necesitas revertir este último commit para regresar tu proyecto al estado anterior, pero deseas mantener los cambios realizados en tu área de trabajo. Explica el comando de Git que utilizarías para llevar a cabo esta acción. (0.5 pts)**
 
-
 **5º ¿Cómo se realiza un fork de un repositorio en GitHub y para qué se utiliza comúnmente esta acción? (1 pts).**
 
 **6º Te encuentras trabajando en un proyecto y necesitas llegar a un archivo específico llamado "archivo.txt". Este archivo está ubicado dentro de una estructura de directorios en tu sistema.**
 
 **a)      Desde tu posición actual en el directorio raíz (home) de tu proyecto, ¿cómo llegarías al directorio que contiene "archivo.txt", el cual está dentro del directorio "UAX", el cual a su vez está dentro del directorio "Universidad", que se encuentra dentro del directorio "Nombre_del_alumno (raíz)"? Proporciona el comando exacto que usarías y especifica qué tipo de ruta es. (0.5 pts)**
+El comando exacto que usaría es "cd". Cd significa change directory, en español cambiar directorio. Partiendo de "Nombre_del_alumno" escribiría "cd Universidad" y presionaría enter. Como el directorio "UAX" está dentro de "Universidad" volveria a escribir "cd UAX" y una vez dentro de UAX tendría que escribir "cd archivo.txt" para acceder a dicho directorio.
+Debido a que la posicion actual es el directorio raiz (home) se trata de una ruta absoluta. 
 
 **b)       Si te encuentras actualmente dentro del directorio "Universidad", ¿cómo accederías al directorio que contiene "archivo.txt"? Proporciona el comando exacto que usarías y especifica qué tipo de ruta es. (0.5 pts)**
+Como dentro de "Universidad" esta el directorio "UAX", volvería a escribir "cd UAX" y una vez dentro de UAX tendría que escribir "cd archivo.txt" para acceder a dicho directorio.
+Debido a que la posicion actual no es el directorio raiz sino que es un directorio dentro de este se trata de una ruta relativa.
 
 **7º Te han asignado la tarea de trabajar en un proyecto de código abierto alojado en GitHub. Como nuevo colaborador, se espera que sigas las mejores prácticas para el manejo del código fuente utilizando Git. Que comandos de Git utilizaría para las siguientes tareas: (2 pts) (0.2 cada pregunta):**
 
 
-
 **1) Clonar el Repositorio:**
 
-a) git pull
-
 b) git clone
-
-c) git fetch
-
-d) git branch
 
 **2) Crear una Nueva Rama:**
 
 a) git branch
 
-b) git checkout
-
-c) git merge
-
-d) git add
-
 **3) Cambiar entre Ramas:**
-
-a) git merge
-
-b) git branch
 
 c) git checkout
 
-d) git pull
-
 **4) Añadir Cambios al Área de Preparación (Staging):**
-
-a) git commit
 
 b) git add
 
-c) git push
-
-d) git checkout
-
 **5) Realizar un Commit:**
-
-a) git add
 
 b) git commit
 
-c) git push
-
-d) git merge
-
 **6) Publicar la Rama en el Repositorio Remoto:**
-
-a) git pull
 
 b) git push
 
-c) git merge
-
-d) git branch
-
 **7) Actualizar tu Rama Local con Cambios del Remoto:**
 
-a) git push
-
-b) git branch
-
 c) git pull
-
-d) git checkout
 
 **8) Fusionar Cambios de otra Rama a tu Rama Actual:**
-
-a) git checkout
-
-b) git branch
-
-c) git pull
 
 d) git merge
 
@@ -109,22 +62,9 @@ d) git merge
 
 a) git reset --hard
 
-b) git pull
-
-c) git merge
-
-d) git branch
-
 **10) Revisar el Historial de Commits:**
 
-a) git commit
-
-b) git push
-
 c) git log
-
-d) git add
-
 
 **8º Eres parte de un equipo de desarrollo trabajando en un proyecto de software matemático. La estructura de ramas de tu proyecto en Git se ve de la siguiente manera:**
 
