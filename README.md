@@ -14,11 +14,12 @@ El conflicto tiene lugar cuando queremos fusionar (en inglés merge) varias rama
 
 **3º Imaginemos que tenemos dos ramas, la principal llamada “main” y la rama “examen_parcial”. ¿Qué procedimiento se debería seguir para fusionar (merge) ambas ramas? *(0.5 pts)***
 
-Si nuestro objetivo es fusionar los cambios de la rama "examen_parcial" en nuestra rama actual que es la principal llamada "main" se debería utilizar el comando git merge examen_parcial
-
+Si nuestro objetivo es fusionar los cambios de la rama "examen_parcial" en nuestra rama actual que es la principal llamada "main" se debería utilizar el comando "git merge examen_parcial"
+También se debe mencionar que hay un comando que resulta muy útil cuando queremos cambiar de rama: "git checkout".
 
 **4º Has realizado un commit, pero luego descubres un error importante en los cambios que has incluido. Necesitas revertir este último commit para regresar tu proyecto al estado anterior, pero deseas mantener los cambios realizados en tu área de trabajo. Explica el comando de Git que utilizarías para llevar a cabo esta acción. *(0.5 pts)***
 
+Cuando se utiliza UNIX un sistema operativo de código libre (open source) ocurre que otros colaboradores son capaces de editar tu código y con el comando git push publicar dicha rama en el repositorio remoto. Por este motivo es esencial que se pueda revertir commits para volver al estado anterior de tu proyecto. El comando de Git que utilizaria para llevar a cabo esta acción es 
 
 **5º ¿Cómo se realiza un fork de un repositorio en GitHub y para qué se utiliza comúnmente esta acción? *(1 pts).***
 
@@ -28,13 +29,13 @@ Cuando estas en un repositorio en GitHub del que tu no eres creador arriba a la 
 
 **a)      Desde tu posición actual en el directorio raíz (home) de tu proyecto, ¿cómo llegarías al directorio que contiene "archivo.txt", el cual está dentro del directorio "UAX", el cual a su vez está dentro del directorio "Universidad", que se encuentra dentro del directorio "Nombre_del_alumno (raíz)"? Proporciona el comando exacto que usarías y especifica qué tipo de ruta es. *(0.5 pts)***
 
-El comando exacto que usaría es "cd". Cd significa change directory, en español cambiar directorio. Partiendo de "Nombre_del_alumno" escribiría "cd Universidad" y presionaría enter. Como el directorio "UAX" está dentro de "Universidad" volveria a escribir "cd UAX" y una vez dentro de UAX tendría que escribir "cd archivo.txt" para acceder a dicho directorio.
-Debido a que la posicion actual es el directorio raiz (home) se trata de una ruta absoluta. 
+El comando exacto que usaría es "cd". Cd significa change directory, en español cambiar directorio. Partiendo de "Nombre_del_alumno" escribiría "cd Universidad" y presionaría enter. Como el directorio "UAX" está dentro de "Universidad" volvería a escribir "cd UAX" enter y una vez dentro de UAX tendría que escribir "cd archivo.txt" enter para acceder a dicho directorio.
+Debido a que la posición actual es el directorio raiz (home) se trata de una ruta absoluta. 
 
 **b)       Si te encuentras actualmente dentro del directorio "Universidad", ¿cómo accederías al directorio que contiene "archivo.txt"? Proporciona el comando exacto que usarías y especifica qué tipo de ruta es. *(0.5 pts)***
 
-Como dentro de "Universidad" esta el directorio "UAX", volvería a escribir "cd UAX" y una vez dentro de UAX tendría que escribir "cd archivo.txt" para acceder a dicho directorio.
-Debido a que la posicion actual no es el directorio raiz sino que es un directorio dentro de este se trata de una ruta relativa.
+Como dentro de "Universidad" está el directorio "UAX", volvería a escribir "cd UAX" y una vez dentro de UAX tendría que escribir "cd archivo.txt" para acceder a dicho directorio.
+Debido a que la posición inicial no es el directorio raiz, sino que es un directorio dentro de este, se trata de una ruta relativa.
 
 
 **7º Te han asignado la tarea de trabajar en un proyecto de código abierto alojado en GitHub. Como nuevo colaborador, se espera que sigas las mejores prácticas para el manejo del código fuente utilizando Git. Que comandos de Git utilizaría para las siguientes tareas: *(2 pts) (0.2 cada pregunta):***
