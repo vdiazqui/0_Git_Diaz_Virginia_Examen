@@ -21,7 +21,7 @@ Si nuestro objetivo es fusionar los cambios de la rama "examen_parcial" en nuest
 
 
 **5º ¿Cómo se realiza un fork de un repositorio en GitHub y para qué se utiliza comúnmente esta acción? *(1 pts).***
-
+Cuando estas en un repositorio en GitHub del que tu no eres creador arriba a la derecha aparece un botón llamado "fork" (la traduccion literal es tenedor) haciendo click en ese botón sale un enlace que debe ser copiado. Esta acción se utiliza cuando queremos clonar un repositorio ajeno en nuestra consola para trabajar en él en nuestro local y luego subir los cambios al remoto. El comando utilizado es git clone y se copia el fork que hemos creado.
 
 **6º Te encuentras trabajando en un proyecto y necesitas llegar a un archivo específico llamado "archivo.txt". Este archivo está ubicado dentro de una estructura de directorios en tu sistema.**
 
