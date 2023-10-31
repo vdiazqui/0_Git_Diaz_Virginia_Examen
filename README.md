@@ -68,36 +68,29 @@ c) git log
 
 **8º Eres parte de un equipo de desarrollo trabajando en un proyecto de software matemático. La estructura de ramas de tu proyecto en Git se ve de la siguiente manera:**
 
-·         main: La rama principal donde el código es estable y listo para producción.
+·         **main: La rama principal donde el código es estable y listo para producción.**
 
-·         develop: Una rama de desarrollo donde se integran las nuevas características antes de pasar a main.
+·         **develop: Una rama de desarrollo donde se integran las nuevas características antes de pasar a main.**
 
-·         matemáticas: Una rama donde tú y tu equipo están trabajando en resolver un problema.
+·         **matemáticas: Una rama donde tú y tu equipo están trabajando en resolver un problema.**
 
-·         Diseño UX: Una rama donde el equipo de diseño trabaja en desarrollar la vista de las integraciones por parte del equipo de matemáticas.
+·         **Diseño UX: Una rama donde el equipo de diseño trabaja en desarrollar la vista de las integraciones por parte del equipo de matemáticas.**
 
-Durante el desarrollo, tu equipo ha completado una serie de algoritmos importantes en la rama matemáticas y está listo para integrarlos en la rama develop. Simultáneamente, el equipo de diseño ha hecho cambios significativos en la rama diseño-UX, que también deben ser integrados en develop.
+**Durante el desarrollo, tu equipo ha completado una serie de algoritmos importantes en la rama matemáticas y está listo para integrarlos en la rama develop. Simultáneamente, el equipo de diseño ha hecho cambios significativos en la rama diseño-UX, que también deben ser integrados en develop.**
 
-Tu tarea es coordinar la integración de estas dos ramas en develop asegurándote de que se manejen adecuadamente los conflictos, se mantenga la calidad del código y se respete la funcionalidad tanto del lado matemático como del diseño UX.
+**Tu tarea es coordinar la integración de estas dos ramas en develop asegurándote de que se manejen adecuadamente los conflictos, se mantenga la calidad del código y se respete la funcionalidad tanto del lado matemático como del diseño UX.**
 
-Describe detalladamente los pasos y consideraciones que tomarías para lograr esta tarea, incluyendo cómo manejarías los posibles conflictos de fusión y cómo asegurarías que la integración final en develop sea estable y funcional. (2 pts)
+**Describe detalladamente los pasos y consideraciones que tomarías para lograr esta tarea, incluyendo cómo manejarías los posibles conflictos de fusión y cómo asegurarías que la integración final en develop sea estable y funcional. (2 pts)**
 
-9º Pregunta práctica del módulo 3: Repositorios local y remoto
+**9º Pregunta práctica del módulo 3: Repositorios local y remoto**
 
-Recientemente, has completado una práctica en la que creaste un repositorio tanto local como remoto para una calculadora web sencilla. La práctica implicaba varios pasos clave, incluyendo la creación del repositorio, la adición y el registro de cambios, y finalmente la subida del repositorio local al remoto en GitHub.
+**Recientemente, has completado una práctica en la que creaste un repositorio tanto local como remoto para una calculadora web sencilla. La práctica implicaba varios pasos clave, incluyendo la creación del repositorio, la adición y el registro de cambios, y finalmente la subida del repositorio local al remoto en GitHub.**
 
 
-Considerando los pasos realizados durante la práctica, responde la siguiente pregunta:
+**Considerando los pasos realizados durante la práctica, responde la siguiente pregunta:**
 
 **¿Cuál de las siguientes afirmaciones describe mejor el proceso que seguiste para añadir el botón de "x^4" a tu calculadora web y subir los cambios al repositorio remoto? (1 pts)**
 
-Opciones:
-
-A) Editaste directamente el archivo "index.html" en GitHub y creaste un nuevo commit en la rama principal (master).
-
-B) Clonaste el repositorio remoto, hiciste cambios en el archivo "index.html" en una rama secundaria, y luego hiciste un pull request a la rama principal (master).
-
 C) Añadiste el botón "x^4" al archivo "index.html" en tu repositorio local, creaste un commit con los cambios y luego subiste el repositorio local al remoto en la rama principal (master).
 
-D) Creaste un nuevo archivo para el botón "x^4", lo añadiste al índice en tu repositorio local, pero no creaste un commit ni subiste los cambios al repositorio remoto.
 
