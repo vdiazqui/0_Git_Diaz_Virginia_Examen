@@ -19,7 +19,7 @@ También se debe mencionar que hay un comando que resulta muy útil cuando quere
 
 **4º Has realizado un commit, pero luego descubres un error importante en los cambios que has incluido. Necesitas revertir este último commit para regresar tu proyecto al estado anterior, pero deseas mantener los cambios realizados en tu área de trabajo. Explica el comando de Git que utilizarías para llevar a cabo esta acción. *(0.5 pts)***
 
-Cuando se utiliza UNIX un sistema operativo de código libre (open source) ocurre que otros colaboradores son capaces de editar tu código y con el comando git push publicar dicha rama en el repositorio remoto. Por este motivo es esencial que se pueda revertir commits para volver al estado anterior de tu proyecto. El comando de Git que utilizaria para llevar a cabo esta acción es 
+Es esencial que se pueda revertir commits para volver al estado anterior de tu proyecto ya que siempre puede haber algún error que no hemos percibido antes. El comando de Git que utilizaría para llevar a cabo esta acción es "git reset --hard". Esta acción lo que hace es revertir los cambios realizados en tu consola es decir los cambios locales. 
 
 **5º ¿Cómo se realiza un fork de un repositorio en GitHub y para qué se utiliza comúnmente esta acción? *(1 pts).***
 
