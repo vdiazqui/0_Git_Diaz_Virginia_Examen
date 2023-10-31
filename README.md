@@ -4,8 +4,7 @@
 ### https://github.com/vdiazqui/Diaz_Virginia.zip.git
 
 **1º Explica que es un “Pull Request” en Github. *(1 pts)***
-
-
+Los Pull Requests te ayudan a trabajar 
 
 **2º ¿Qué es un conflicto de fusión (merge conflict) en Git? Explica como resolverías este conflicto. *(1 pts)***
 
