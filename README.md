@@ -6,6 +6,7 @@
 **1º Explica que es un “Pull Request” en Github. *(1 pts)***
 
 
+
 **2º ¿Qué es un conflicto de fusión (merge conflict) en Git? Explica como resolverías este conflicto. *(1 pts)***
 
 Para explicar lo que es un conflicto de fusión debemos introducir brevemente ciertos conceptos. Cuando estamos escribiendo código en Git, en ocasiones, se trabaja en más de una rama (también denominada "branch"): la rama principal, suele ser nombrada main o master y es donde el código es estable y listo para producción; además, se pueden crear más ramas para que otras personas puedan crear codigo sin modificar el main. 
@@ -15,7 +16,7 @@ El conflicto tiene lugar cuando queremos fusionar (en inglés merge) varias rama
 **3º Imaginemos que tenemos dos ramas, la principal llamada “main” y la rama “examen_parcial”. ¿Qué procedimiento se debería seguir para fusionar (merge) ambas ramas? *(0.5 pts)***
 
 Si nuestro objetivo es fusionar los cambios de la rama "examen_parcial" en nuestra rama actual que es la principal llamada "main" se debería utilizar el comando "git merge examen_parcial"
-También se debe mencionar que hay un comando que resulta muy útil cuando queremos cambiar de rama: "git checkout".
+También se debe mencionar que hay varios comandos que resultan muy útil cuando estamos trabajando con ramas: "git checkout" sirve para cambiar de una rama a otra y "git branch" se utiliza para listar todas las ramas que hay, la que sale en un color diferente será aquella en la que te encuentres. El procedimiento que se debe utilizar es primero saber que ramas tienes utilizando "git branch", después con "git checkout main" estarías en tu rama principal y una vez allí puedes escribir el comando "git merge examen_parcial" para fusionar ambas ramas.
 
 **4º Has realizado un commit, pero luego descubres un error importante en los cambios que has incluido. Necesitas revertir este último commit para regresar tu proyecto al estado anterior, pero deseas mantener los cambios realizados en tu área de trabajo. Explica el comando de Git que utilizarías para llevar a cabo esta acción. *(0.5 pts)***
 
