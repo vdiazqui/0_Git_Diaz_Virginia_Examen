@@ -98,6 +98,8 @@ c) git log
 
 **Describe detalladamente los pasos y consideraciones que tomarías para lograr esta tarea, incluyendo cómo manejarías los posibles conflictos de fusión y cómo asegurarías que la integración final en develop sea estable y funcional. *(2 pts)***
 
+Antes de poder describir detalladamente los pasos y consideraciones que seguiría para llevar a cabo dicha labor se debe contextualizar la situación y analizar el punto de partida. 
+En este escenario no entra en juego la rama main aún, ya que ahí es donde se pasarán los nuevos cambios implementados primero en la rama de desarrollo denominada develop. Sin embargo, sí que tenemos otras dos ramas en las que hemos implementado cambios con información altamente importante de las cuales no podemos priorizar ninguna sino que queremos respetar la funcionalidad de ambas ramas. El procedimiento que llevaría a cabo es realizar un comand para mergear las ramas, es decir fusionarlas. En el caso de que surgiera algún conflicto de fusión este debería ser resuelto de la manera más eficiente posible.
 
 **9º Pregunta práctica del módulo 3: Repositorios local y remoto**
 
